@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "deutero": {
+      "url": "https://api.deutero.ai/mcp",
+      "transport": "http",
+      "headers": {
+        "X-API-Key": "${DEUTERO_API_KEY}"
+      },
+      "timeout": 60000
+    }
+  }
+}

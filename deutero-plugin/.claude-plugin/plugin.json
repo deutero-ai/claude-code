@@ -1,0 +1,8 @@
+{
+  "name": "deutero-user-research",
+  "version": "1.0.0",
+  "description": "User research plugin that integrates Deutero MCP tools with a Claude Code skill for designing and analyzing UX studies.",
+  "author": {
+    "name": "Deutero"
+  }
+}

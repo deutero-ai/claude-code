@@ -1,0 +1,26 @@
+{
+  "name": "deutero-claude-code",
+  "owner": {
+    "name": "Deutero",
+    "email": "support@deutero.ai"
+  },
+  "metadata": {
+    "description": "Deutero plugins for Claude Code: user research studies, UX research, and requirements gathering via the Deutero platform.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "deutero-user-research",
+      "source": "./deutero-plugin",
+      "description": "User research plugin that integrates Deutero MCP tools with a Claude Code skill for designing and analyzing UX studies.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Deutero"
+      },
+      "repository": "https://github.com/deuteroai/claude-code",
+      "homepage": "https://www.deutero.ai/docs",
+      "keywords": ["user-research", "ux", "deutero", "interviews", "requirements", "thematic-analysis"],
+      "category": "research"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "deutero": {
-      "url": "https://api.deutero.ai/mcp",
+      "url": "https://agents.deutero.ai/mcp",
       "transport": "sse",
       "headers": {
         "X-API-Key": "${DEUTERO_API_KEY}"

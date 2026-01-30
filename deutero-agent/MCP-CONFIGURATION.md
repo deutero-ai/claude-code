@@ -215,7 +215,7 @@ export BASE_URL="http://127.0.0.1:8000"
    - Add settings.json to .gitignore if it contains keys
 
 2. **Use secure connections**
-   - Use HTTPS in production: `https://api.deutero.ai`
+   - Use HTTPS in production: `https://agents.deutero.ai`
    - Avoid HTTP for sensitive data
 
 3. **Rotate keys regularly**
@@ -234,7 +234,7 @@ For production use:
 {
   "mcpServers": {
     "deutero-prod": {
-      "url": "https://api.deutero.ai/mcp",
+      "url": "https://agents.deutero.ai/mcp",
       "transport": "http",
       "headers": {
         "X-API-Key": "${DEUTERO_PROD_API_KEY}"
@@ -286,7 +286,7 @@ You can configure multiple Deutero environments:
       }
     },
     "deutero-prod": {
-      "url": "https://api.deutero.ai/mcp",
+      "url": "https://agents.deutero.ai/mcp",
       "transport": "http",
       "headers": {
         "X-API-Key": "${DEUTERO_PROD_API_KEY}"

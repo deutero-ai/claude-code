@@ -147,7 +147,7 @@ The plugin automatically configures the MCP server. To customize:
 export DEUTERO_BASE_URL="http://127.0.0.1:8000"
 
 # Or cloud service
-export DEUTERO_BASE_URL="https://api.deutero.ai"
+export DEUTERO_BASE_URL="https://agents.deutero.ai"
 
 # Custom timeout (milliseconds)
 export DEUTERO_TIMEOUT="60000"
@@ -161,7 +161,7 @@ Edit `deutero-plugin/.mcp.json`:
 {
   "mcpServers": {
     "deutero": {
-      "url": "https://api.deutero.ai/mcp",
+      "url": "https://agents.deutero.ai/mcp",
       "transport": "http",
       "headers": {
         "X-API-Key": "${DEUTERO_API_KEY}"

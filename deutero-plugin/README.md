@@ -18,8 +18,35 @@ The user-research skill guides you through the complete research workflow:
 ### Prerequisites
 
 - Claude Code installed and configured
-- Deutero MCP server set up and accessible
-- API key for Deutero (configured in MCP settings)
+- Deutero account with API access
+- API key for Deutero
+
+### Environment Setup
+
+Before using this plugin, you must configure your Deutero API key:
+
+**Set the environment variable:**
+
+```bash
+# Add to your shell profile (~/.bashrc, ~/.zshrc, etc.)
+export DEUTERO_API_KEY="your-deutero-api-key-here"
+
+# Or set for current session only
+export DEUTERO_API_KEY="your-deutero-api-key-here"
+```
+
+**Get your API key:**
+1. Log in to your Deutero account at https://www.deutero.ai
+2. Navigate to Settings > API Keys
+3. Generate a new API key or copy your existing key
+
+**Verify the setup:**
+```bash
+# Check that the variable is set
+echo $DEUTERO_API_KEY
+```
+
+The plugin's MCP configuration will automatically use this environment variable to authenticate with the Deutero API.
 
 ### Install the Skill
 

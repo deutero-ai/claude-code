@@ -4,5 +4,16 @@
   "description": "User research plugin that integrates Deutero MCP tools with a Claude Code skill for designing and analyzing UX studies.",
   "author": {
     "name": "Deutero"
-  }
+  },
+  "repository": "https://github.com/deuteroai/claude-code",
+  "homepage": "https://www.deutero.ai/docs",
+  "license": "MIT",
+  "keywords": [
+    "user-research",
+    "ux",
+    "deutero",
+    "interviews",
+    "requirements",
+    "thematic-analysis"
+  ]
 }

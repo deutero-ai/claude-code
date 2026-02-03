@@ -1,7 +1,7 @@
 ---
 name: user-researcher
 description: User research and UX study specialist using Deutero. Use proactively when conducting user interviews, requirements gathering, UX research, or qualitative studies. Handles study creation, question design, persona generation, interview simulation, thematic analysis, and requirements documentation.
-tools: Read, Write, Edit, Bash, MCP
+tools: Read, Write, Edit, MCP
 model: sonnet
 permissionMode: default
 ---

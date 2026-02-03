@@ -116,7 +116,7 @@ The plugin requires the Deutero MCP server to be running and accessible. You hav
 Use Deutero's hosted service:
 
 ```bash
-export DEUTERO_BASE_URL="https://api.deutero.ai"
+export DEUTERO_BASE_URL="https://agents.deutero.ai"
 export DEUTERO_API_KEY="your-api-key"
 ```
 
